@@ -1,0 +1,14 @@
+{"error": "실험 템플릿을 찾을 수 없습니다. 실험 템플릿 ID가 유효한지 확인하세요."}
+---
+{"execution_results": [{"experiment_id": "EXP-003", "hypothesis_id": "H-003", "status": "FAILED", "pre_checks": {"replicas_ok": false, "target_exists": true}, "duration_seconds": 0, "observations": "실험 템플릿이 존재하지 않아 실패했습니다. 레플리카 수가 2개 미만으로, 최소 레플리카 확인이 실패했습니다.", "metrics": {}}, {"experiment_id": "EXP-001", "hypothesis_id": "H-001", "status": "FAILED", "pre_checks": {"replicas_ok": false, "target_exists": true}, "duration_seconds": 0, "observations": "실험 템플리트가 존재하지 않아 실패했습니다. 레플리카 수가 2개 미만으로, 최소 레플리카 확인이 실패했습니다.", "metrics": {}}]}
+---
+{"experiment_id": "EXP-001", "status": "failed", "details": "실험 템플릿을 찾을 수 없음. EXP-003 및 EXP-002 실패. 리소스 상태 확인 결과, 각 Deployment의 레플리카 수가 1개로, 안전 검증 기준에 부적합.", "actions_required": ["실험 템플릿 확인 및 재생성", "레플리카 수 증가 (최소 2개)", "실험 재시도"]}
+---
+{"execution_results": [{"experiment_id": "EXP-005", "hypothesis_id": "H-005", "status": "FAILED", "pre_checks": {"replicas_ok": false, "target_exists": false}, "duration_seconds": 0, "observations": "실험 템플릿 또는 타깃 리소스가 존재하지 않아 실패했습니다.", "metrics": {}}, {"experiment_id": "EXP-004", "hypothesis_id": "H-004", "status": "FAILED", "pre_checks": {"replicas_ok": false, "target_exists": false}, "duration_seconds": 0, "observations": "실험 템플릿 또는 타깃 리소스가 존재하지 않아 실패했습니다.", "metrics": {}}], "summary": "FIS 실험 템플릿이 존재하지 않거나, 타깃 네임스페이스에 리소스가 없어 실패했습니다. 먼저 FIS 템플릿과 EKS 리소스의 존재 여부를 점검해야 합니다."}
+---
+{"validation_results": [{"hypothesis_id": "H-001", "target_service": "orders", "status": "READY", "pod_count": 1, "all_running": true, "observations": " orders 서비스의 Pod가 정상적으로 Running 상태이며, 타깃 리소스가 존재합니다."}, {"hypothesis_id": "H-003", "target_service": "payment", "status": "READY", "pod_count": 1, "all_running": true, "observations": " payment 서비스의 Pod가 정상적으로 Running 상태이며, 타깃 리소스가 존재합니다."}], "total_pods": 10, "all_healthy": true, "summary": "모든 실험 타깃 서비스의 Pod가 Running 상태이며, 리소스가 존재합니다. 실험 실행 준비가 완료되었습니다."}
+---
+{"validation_results": [{"hypothesis_id": "H-005", "target_service": "orders", "status": "READY", "pod_count": 1, "all_running": true, "observations": "orders 서비스는 1개의 Pod를 가지며 모든 Pod가 Running 상태입니다."}, {"hypothesis_id": "H-001", "target_service": "carts", "status": "READY", "pod_count": 1, "all_running": true, "observations": "carts 서비스는 1개의 Pod를 가지며 모든 Pod가 Running 상태입니다."}], "total_pods": 10, "all_healthy": true, "summary": "모든 서비스의 Pod가 존재하고 Running 상태이며, 실험 실행 준비가 완료되었습니다."}
+---
+{"validation_results": [{"hypothesis_id": "H-001", "target_service": "orders", "status": "READY", "pod_count": 1, "all_running": true, "observations": "orders 서비스는 1개의 replica를 가지고 있으며, 해당 Pod는 Running 상태입니다."}, {"hypothesis_id": "H-002", "target_service": "carts", "status": "READY", "pod_count": 1, "all_running": true, "observations": "carts 서비스는 1개의 replica를 가지고 있으며, 해당 Pod는 Running 상태입니다."}], "total_pods": 10, "all_healthy": true, "summary": "모든 실험 타깃 서비스는 정상적으로 Running 상태의 Pod를 가지고 있어 실험 실행 준비가 완료되었습니다."}
+---
