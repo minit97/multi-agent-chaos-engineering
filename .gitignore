@@ -5,3 +5,12 @@ __pycache__/
 .idea/
 .ipynb_checkpoints/
 .claude/
+
+# 발표용 원본 영상 (수백 MB) — 사내 스토리지나 Git LFS로 공유
+docs/video/
+
+# macOS
+.DS_Store
+
+# PPTX 생성·검수 작업 폴더
+temp/

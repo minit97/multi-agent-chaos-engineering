@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">
+  <defs><marker id="a-FF9900" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#FF9900"/></marker><marker id="a-527FFF" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#527FFF"/></marker><marker id="a-01A88D" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#01A88D"/></marker><marker id="a-D13212" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#D13212"/></marker><marker id="a-687078" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#687078"/></marker><marker id="a-232F3E" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#232F3E"/></marker></defs>
+  <rect width="1500" height="900" fill="#FFFFFF"/>
+  <text x="750.0" y="58" font-size="34" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">테스트 대상: Retail Store Sample App on Amazon EKS</text>
+  <text x="750.0" y="92" font-size="18" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">에이전트가 kubectl로 직접 읽어낸 실제 구성 — Pod 10개 / 모든 서비스 레플리카 1개</text>
+  <rect x="60" y="150" width="190" height="74" rx="12" fill="#F7F8F8" stroke="#687078" stroke-width="2"/>
+  <text x="155" y="196" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Users</text>
+  <path d="M258,187 L300,187" stroke="#687078" stroke-width="2.5" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="310" y="150" width="150" height="74" rx="12" fill="#F7F8F8" stroke="#687078" stroke-width="2"/>
+  <text x="385" y="196" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">ALB</text>
+  <rect x="60" y="254" width="1380" height="440" rx="16" fill="#FBFCFC" stroke="#232F3E" stroke-width="2.5" stroke-dasharray="9,6"/>
+  <text x="84" y="286" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Amazon EKS Cluster  ·  namespace: retail-store  ·  ap-northeast-2 (Auto Mode)</text>
+  <path d="M385,232 L385,310" stroke="#687078" stroke-width="2.5" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="240" y="320" width="290" height="80" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="385" y="355" font-size="23" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">ui</text>
+  <text x="385" y="382" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">프론트엔드 · replica 1</text>
+  <rect x="100" y="450" width="290" height="82" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="245" y="484" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">catalog</text>
+  <text x="245" y="510" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">상품 카탈로그</text>
+  <path d="M245,534 L245,576" stroke="#687078" stroke-width="2" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="100" y="586" width="290" height="82" rx="12" fill="#FDF0EE" stroke="#D13212" stroke-width="2.5"/>
+  <text x="245" y="618" font-size="18" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">catalog-mysql</text>
+  <text x="245" y="644" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">MySQL · emptyDir</text>
+  <rect x="160" y="676" width="170" height="30" rx="15" fill="#D13212" stroke="#D13212" stroke-width="0"/>
+  <text x="245" y="696" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">데이터 영구 손실</text>
+  <path d="M385,402 L245,442" stroke="#687078" stroke-width="1.8" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="440" y="450" width="290" height="82" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="585" y="484" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">carts</text>
+  <text x="585" y="510" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">장바구니</text>
+  <path d="M585,534 L585,576" stroke="#687078" stroke-width="2" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="440" y="586" width="290" height="82" rx="12" fill="#FFFFFF" stroke="#687078" stroke-width="2.5"/>
+  <text x="585" y="618" font-size="18" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">DynamoDB</text>
+  <text x="585" y="644" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">AWS 관리형</text>
+  <path d="M385,402 L585,442" stroke="#687078" stroke-width="1.8" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="780" y="450" width="290" height="82" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="925" y="484" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">checkout</text>
+  <text x="925" y="510" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">결제 처리</text>
+  <path d="M925,534 L925,576" stroke="#687078" stroke-width="2" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="780" y="586" width="290" height="82" rx="12" fill="#FDF0EE" stroke="#D13212" stroke-width="2.5"/>
+  <text x="925" y="618" font-size="18" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">checkout-redis</text>
+  <text x="925" y="644" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Redis · replica 1</text>
+  <rect x="840" y="676" width="170" height="30" rx="15" fill="#D13212" stroke="#D13212" stroke-width="0"/>
+  <text x="925" y="696" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">SPOF</text>
+  <path d="M385,402 L925,442" stroke="#687078" stroke-width="1.8" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="1120" y="450" width="290" height="82" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="1265" y="484" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">orders</text>
+  <text x="1265" y="510" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">주문 관리</text>
+  <path d="M1265,534 L1265,576" stroke="#687078" stroke-width="2" fill="none" marker-end="url(#a-687078)"/>
+  <rect x="1120" y="586" width="290" height="82" rx="12" fill="#E8F8F5" stroke="#01A88D" stroke-width="2.5"/>
+  <text x="1265" y="618" font-size="18" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">orders-postgresql</text>
+  <text x="1265" y="644" font-size="14" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">PostgreSQL · PVC</text>
+  <path d="M385,402 L1265,442" stroke="#687078" stroke-width="1.8" fill="none" marker-end="url(#a-687078)"/>
+  <path d="M1070,491 L1140,491" stroke="#D13212" stroke-width="2.5" fill="none" marker-end="url(#a-D13212)"/>
+  <text x="1105" y="478" font-size="13" fill="#D13212" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">의존</text>
+  <rect x="60" y="730" width="1380" height="128" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <text x="84" y="764" font-size="19" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">에이전트가 확정적으로 아는 것  vs  추론하는 것</text>
+  <text x="84" y="798" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">확정 (kubectl 응답): Pod 이름·상태·레플리카 수·라벨·StatefulSet의 volumeClaimTemplates 유무</text>
+  <text x="84" y="828" font-size="16" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">추론 (LLM 판단): 서비스 간 호출 관계·장애 영향 범위·비즈니스 중요도 — 소스 코드는 읽지 않는다</text>
+</svg>

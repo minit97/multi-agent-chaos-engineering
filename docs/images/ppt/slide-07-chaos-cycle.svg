@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">
+  <defs><marker id="a-FF9900" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#FF9900"/></marker><marker id="a-527FFF" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#527FFF"/></marker><marker id="a-01A88D" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#01A88D"/></marker><marker id="a-D13212" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#D13212"/></marker><marker id="a-687078" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#687078"/></marker><marker id="a-232F3E" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#232F3E"/></marker></defs>
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+  <text x="600.0" y="58" font-size="34" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">카오스 엔지니어링의 4단계 사이클</text>
+  <text x="600.0" y="92" font-size="18" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">일회성 이벤트가 아니라 반복되는 루프</text>
+  <circle cx="600" cy="392" r="84" fill="#232F3E"/>
+  <text x="600" y="382" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">반복</text>
+  <text x="600" y="410" font-size="15" fill="#B8C0C8" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Continuous</text>
+  <rect x="150" y="160" width="330" height="124" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <circle cx="186" cy="196" r="19" fill="#527FFF"/><text x="186" y="203" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">1</text>
+  <text x="216" y="203" font-size="22" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">정상 상태 정의</text>
+  <text x="180" y="238" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Steady State — 평소를 숫자로</text>
+  <text x="180" y="263" font-size="15" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">예) 주문 성공률 99.9%</text>
+  <rect x="720" y="160" width="330" height="124" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <circle cx="756" cy="196" r="19" fill="#527FFF"/><text x="756" y="203" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">2</text>
+  <text x="786" y="203" font-size="22" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">가설 수립</text>
+  <text x="750" y="238" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">"만약 X가 실패하면 Y일 것이다"</text>
+  <text x="750" y="263" font-size="15" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">깨지는 순간이 가장 값진 결과</text>
+  <rect x="720" y="490" width="330" height="124" rx="12" fill="#FFF4E5" stroke="#FF9900" stroke-width="2.5"/>
+  <circle cx="756" cy="526" r="19" fill="#FF9900"/><text x="756" y="533" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">3</text>
+  <text x="786" y="533" font-size="22" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">실험 주입 및 측정</text>
+  <text x="750" y="568" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">통제된 조건에서 장애 주입</text>
+  <text x="750" y="593" font-size="15" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">1단계 지표가 얼마나 흔들리는지</text>
+  <rect x="150" y="490" width="330" height="124" rx="12" fill="#E8F8F5" stroke="#01A88D" stroke-width="2.5"/>
+  <circle cx="186" cy="526" r="19" fill="#01A88D"/><text x="186" y="533" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">4</text>
+  <text x="216" y="533" font-size="22" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">학습 및 개선</text>
+  <text x="180" y="568" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">취약점 수정 후 1단계로 복귀</text>
+  <text x="180" y="593" font-size="15" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">복구 시간·실패 건수·알람 지연</text>
+  <path d="M488,212 L712,212" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <path d="M885,292 L885,482" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <path d="M712,552 L488,552" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <path d="M315,482 L315,292" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <text x="600.0" y="648" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">출처: Principles of Chaos Engineering (Netflix, 2015)의 4원칙을 실행 순서로 재구성</text>
+</svg>

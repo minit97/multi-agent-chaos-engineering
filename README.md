@@ -99,6 +99,8 @@ jupyter notebook test.ipynb
 │   ├── experiment.json
 │   └── result.json
 └── docs/
+    ├── 2026-09-16-presentation-source.md   # 발표 스크립트 (슬라이드별 구성 + 스피커 노트)
+    ├── images/                             # 발표용 도식 (SVG/PNG + 생성 스크립트)
     ├── notebooklm-ppt-source.md            # 발표 자료 원본
     ├── multi-agent-chaos-engineering-guide.md  # 파이프라인 상세 가이드
     ├── ai-resilience-testing.md            # 컨퍼런스 발표 정리

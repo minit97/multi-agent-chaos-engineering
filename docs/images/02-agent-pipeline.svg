@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1720" height="880" viewBox="0 0 1720 880" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">
+  <defs><marker id="a-FF9900" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#FF9900"/></marker><marker id="a-527FFF" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#527FFF"/></marker><marker id="a-01A88D" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#01A88D"/></marker><marker id="a-D13212" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#D13212"/></marker><marker id="a-687078" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#687078"/></marker><marker id="a-232F3E" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#232F3E"/></marker></defs>
+  <rect width="1720" height="880" fill="#FFFFFF"/>
+  <text x="860.0" y="58" font-size="34" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">5-Agent 파이프라인</text>
+  <text x="860.0" y="92" font-size="18" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">앞 에이전트의 출력 텍스트를 다음 프롬프트에 주입하는 순차 구조 (GraphBuilder 미사용)</text>
+  <rect x="40" y="150" width="268" height="152" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="58" y="182" font-size="15" fill="#527FFF" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Agent 1</text>
+  <text x="290" y="182" font-size="14" fill="#687078" text-anchor="end" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Cell 2</text>
+  <text x="174.0" y="224" font-size="26" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">가설 생성</text>
+  <text x="174.0" y="254" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Hypothesis</text>
+  <text x="174.0" y="275" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Generator</text>
+  <text x="174.0" y="340" font-size="14" fill="#687078" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">사용 도구</text>
+  <rect x="48" y="354" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="174.0" y="372" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">discover_eks_resources</text>
+  <rect x="48" y="388" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="174.0" y="406" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">get_fis_actions</text>
+  <rect x="48" y="422" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="174.0" y="440" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">save_to_database</text>
+  <text x="174.0" y="490" font-size="20" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">50.3s</text>
+  <path d="M316,226 L374,226" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <text x="345.0" y="212" font-size="12" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">텍스트</text>
+  <rect x="382" y="150" width="268" height="152" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="400" y="182" font-size="15" fill="#527FFF" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Agent 2</text>
+  <text x="632" y="182" font-size="14" fill="#687078" text-anchor="end" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Cell 3</text>
+  <text x="516.0" y="224" font-size="26" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">우선순위</text>
+  <text x="516.0" y="254" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Prioritization</text>
+  <text x="516.0" y="340" font-size="14" fill="#687078" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">사용 도구</text>
+  <rect x="390" y="354" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="516.0" y="372" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">save_to_database</text>
+  <text x="516.0" y="490" font-size="20" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">5.2s</text>
+  <path d="M658,226 L716,226" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <text x="687.0" y="212" font-size="12" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">텍스트</text>
+  <rect x="724" y="150" width="268" height="152" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="742" y="182" font-size="15" fill="#527FFF" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Agent 3</text>
+  <text x="974" y="182" font-size="14" fill="#687078" text-anchor="end" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Cell 4</text>
+  <text x="858.0" y="224" font-size="26" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">실험 설계</text>
+  <text x="858.0" y="254" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Experiment</text>
+  <text x="858.0" y="275" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Design</text>
+  <text x="858.0" y="340" font-size="14" fill="#687078" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">사용 도구</text>
+  <rect x="732" y="354" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="858.0" y="372" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">get_fis_actions</text>
+  <rect x="732" y="388" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="858.0" y="406" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">create_fis_experiment</text>
+  <rect x="732" y="422" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="858.0" y="440" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">save_to_database</text>
+  <text x="858.0" y="490" font-size="20" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">35.4s</text>
+  <path d="M1000,226 L1058,226" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <text x="1029.0" y="212" font-size="12" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">텍스트</text>
+  <rect x="1066" y="150" width="268" height="152" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="1084" y="182" font-size="15" fill="#527FFF" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Agent 4</text>
+  <text x="1316" y="182" font-size="14" fill="#687078" text-anchor="end" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Cell 5</text>
+  <text x="1200.0" y="224" font-size="26" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">사전 검증</text>
+  <text x="1200.0" y="254" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Pre-flight</text>
+  <text x="1200.0" y="275" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Validation</text>
+  <text x="1200.0" y="340" font-size="14" fill="#687078" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">사용 도구</text>
+  <rect x="1074" y="354" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="1200.0" y="372" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">discover_eks_resources</text>
+  <rect x="1074" y="388" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="1200.0" y="406" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">save_to_database</text>
+  <text x="1200.0" y="490" font-size="20" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">7.6s</text>
+  <path d="M1342,226 L1400,226" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <text x="1371.0" y="212" font-size="12" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">텍스트</text>
+  <rect x="1408" y="150" width="268" height="152" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="1426" y="182" font-size="15" fill="#527FFF" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Agent 5</text>
+  <text x="1658" y="182" font-size="14" fill="#687078" text-anchor="end" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Cell 6</text>
+  <text x="1542.0" y="224" font-size="26" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">학습 분석</text>
+  <text x="1542.0" y="254" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Learning &amp;</text>
+  <text x="1542.0" y="275" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Iteration</text>
+  <text x="1542.0" y="340" font-size="14" fill="#687078" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">사용 도구</text>
+  <rect x="1416" y="354" width="252" height="27" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="1542.0" y="372" font-size="13" fill="#232F3E" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">save_to_database</text>
+  <text x="1542.0" y="490" font-size="20" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">23.4s</text>
+  <rect x="40" y="560" width="1640" height="92" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <text x="64" y="592" font-size="18" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">에이전트 간 데이터 전달</text>
+  <text x="64" y="624" font-size="15" fill="#4A5561" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">hypothesis_output = hypothesis_result.message["content"][0]["text"]   →   다음 프롬프트에 f-string으로 주입</text>
+  <rect x="40" y="676" width="800" height="88" rx="12" fill="#E8F8F5" stroke="#01A88D" stroke-width="2"/>
+  <text x="64" y="708" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">실행 결과 (실측)</text>
+  <text x="64" y="740" font-size="15" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">5개 에이전트 합계 약 122초 · 전체 노트북 약 152초 · 토큰 33,731</text>
+  <rect x="880" y="676" width="800" height="88" rx="12" fill="#FFF4E5" stroke="#FF9900" stroke-width="2"/>
+  <text x="904" y="708" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">중간 산출물</text>
+  <text x="904" y="740" font-size="15" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">output/hypothesis.json · experiment.json · result.json 으로 저장</text>
+  <text x="860.0" y="806" font-size="16" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">공유 메모리·메시지 큐·벡터 DB 없음. 단순 텍스트 전달만으로 동작한다.</text>
+</svg>

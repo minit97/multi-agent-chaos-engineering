@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">
+  <defs><marker id="a-FF9900" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#FF9900"/></marker><marker id="a-527FFF" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#527FFF"/></marker><marker id="a-01A88D" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#01A88D"/></marker><marker id="a-D13212" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#D13212"/></marker><marker id="a-687078" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#687078"/></marker><marker id="a-232F3E" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#232F3E"/></marker></defs>
+  <rect width="1500" height="900" fill="#FFFFFF"/>
+  <text x="750.0" y="58" font-size="34" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">AWS FIS: 실험 템플릿의 3요소와 실행 흐름</text>
+  <text x="750.0" y="92" font-size="18" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">장애를 코드로 선언하면 AWS가 주입과 원복을 대신 수행한다</text>
+  <rect x="60" y="140" width="440" height="170" rx="12" fill="#FFF4E5" stroke="#FF9900" stroke-width="2.5"/>
+  <text x="84" y="180" font-size="24" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Actions</text>
+  <text x="476" y="180" font-size="16" fill="#FF9900" text-anchor="end" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">무엇을 할지</text>
+  <rect x="80" y="202" width="400" height="40" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="96" y="228" font-size="14" fill="#232F3E" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">aws:eks:pod-cpu-stress</text>
+  <rect x="80" y="250" width="400" height="40" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="96" y="276" font-size="14" fill="#4A5561" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">duration: "PT5M"</text>
+  <rect x="530" y="140" width="440" height="170" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="554" y="180" font-size="24" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Targets</text>
+  <text x="946" y="180" font-size="16" fill="#527FFF" text-anchor="end" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">누구에게</text>
+  <rect x="550" y="202" width="400" height="40" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="566" y="228" font-size="14" fill="#232F3E" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">resourceType: aws:eks:pod</text>
+  <rect x="550" y="250" width="400" height="40" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="566" y="276" font-size="14" fill="#4A5561" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">selectorType: labelSelector</text>
+  <rect x="1000" y="140" width="440" height="170" rx="12" fill="#E8F8F5" stroke="#01A88D" stroke-width="2.5"/>
+  <text x="1024" y="180" font-size="24" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Stop Conditions</text>
+  <text x="1416" y="180" font-size="16" fill="#01A88D" text-anchor="end" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">언제 멈출지</text>
+  <rect x="1020" y="202" width="400" height="40" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="1036" y="228" font-size="14" fill="#232F3E" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">source: aws:cloudwatch:alarm</text>
+  <rect x="1020" y="250" width="400" height="40" rx="6" fill="#FFFFFF" stroke="#D5DBDB" stroke-width="1.5"/>
+  <text x="1036" y="276" font-size="14" fill="#4A5561" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">알람이 울리면 즉시 중단·원복</text>
+  <text x="750.0" y="370" font-size="22" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">실행 흐름</text>
+  <rect x="60" y="400" width="320" height="96" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <circle cx="100" cy="440" r="18" fill="#232F3E"/><text x="100" y="447" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">1</text>
+  <text x="130" y="447" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">실험 템플릿 정의</text>
+  <path d="M388,448 L410,448" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <rect x="418" y="400" width="320" height="96" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <circle cx="458" cy="440" r="18" fill="#232F3E"/><text x="458" y="447" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">2</text>
+  <text x="488" y="447" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">실험 시작 (장애 주입)</text>
+  <path d="M746,448 L768,448" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <rect x="776" y="400" width="320" height="96" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <circle cx="816" cy="440" r="18" fill="#232F3E"/><text x="816" y="447" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">3</text>
+  <text x="846" y="447" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">진행 상태·메트릭 모니터링</text>
+  <path d="M1104,448 L1126,448" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <rect x="1134" y="400" width="320" height="96" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <circle cx="1174" cy="440" r="18" fill="#232F3E"/><text x="1174" y="447" font-size="19" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">4</text>
+  <text x="1204" y="447" font-size="17" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">자동 종료 및 원복</text>
+  <path d="M1454,448 L1476,448 L1476,528 L220,528 L220,500" stroke="#FF9900" stroke-width="2.5" fill="none" stroke-dasharray="7,5" marker-end="url(#a-FF9900)"/>
+  <text x="848" y="521" font-size="14" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">개선 후 다시 실험</text>
+  <rect x="60" y="566" width="1380" height="148" rx="12" fill="#FDF0EE" stroke="#D13212" stroke-width="2.5"/>
+  <text x="84" y="600" font-size="19" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">우리 코드의 실제 설정 (정직하게)</text>
+  <text x="84" y="634" font-size="16" fill="#D13212" text-anchor="start" font-weight="700" font-family="SFMono-Regular, Menlo, monospace">stopConditions=[{"source": "none"}]   ← 중단 조건을 걸지 않았다</text>
+  <text x="84" y="666" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">FIS가 제공하는 안전장치 중 가장 중요한 것을 아직 쓰지 않고 있다. 지금은 실행 전 검증으로만 막는다.</text>
+  <text x="84" y="694" font-size="16" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">CloudWatch 알람 기반 Stop Condition 자동 생성이 다음 과제다.</text>
+  <rect x="60" y="738" width="1380" height="120" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <text x="84" y="772" font-size="18" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">우리 파이프라인이 실제로 호출하는 FIS API</text>
+  <text x="84" y="806" font-size="16" fill="#232F3E" text-anchor="start" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">fis.list_actions()  ·  fis.create_experiment_template()</text>
+  <text x="84" y="836" font-size="15" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">fis.start_experiment() / fis.get_experiment() 은 함수로 정의했으나 에이전트에 연결하지 않았다 (미실행)</text>
+</svg>

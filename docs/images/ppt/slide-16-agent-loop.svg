@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">
+  <defs><marker id="a-FF9900" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#FF9900"/></marker><marker id="a-527FFF" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#527FFF"/></marker><marker id="a-01A88D" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#01A88D"/></marker><marker id="a-D13212" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#D13212"/></marker><marker id="a-687078" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#687078"/></marker><marker id="a-232F3E" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#232F3E"/></marker></defs>
+  <rect width="1400" height="760" fill="#FFFFFF"/>
+  <text x="700.0" y="58" font-size="34" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">Strands Agent Loop</text>
+  <text x="700.0" y="92" font-size="18" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">코드가 "이 도구를 써라"고 지시하지 않는다. LLM이 스스로 판단해 호출한다.</text>
+  <rect x="60" y="300" width="200" height="100" rx="12" fill="#F7F8F8" stroke="#687078" stroke-width="2"/>
+  <text x="160" y="340" font-size="21" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">프롬프트</text>
+  <text x="160" y="368" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">입력</text>
+  <rect x="360" y="280" width="250" height="140" rx="12" fill="#F2F7FF" stroke="#527FFF" stroke-width="2.5"/>
+  <text x="485" y="330" font-size="24" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">LLM 추론</text>
+  <text x="485" y="362" font-size="15" fill="#4A5561" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">도구를 쓸지,</text>
+  <text x="485" y="384" font-size="15" fill="#4A5561" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">답을 낼지 판단</text>
+  <rect x="730" y="170" width="270" height="130" rx="12" fill="#FFF4E5" stroke="#FF9900" stroke-width="2.5"/>
+  <text x="865" y="214" font-size="23" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">도구 호출</text>
+  <text x="865" y="246" font-size="15" fill="#4A5561" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">kubectl / boto3 실행</text>
+  <text x="865" y="272" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">결과를 문자열로 반환</text>
+  <rect x="730" y="400" width="270" height="130" rx="12" fill="#E8F8F5" stroke="#01A88D" stroke-width="2.5"/>
+  <text x="865" y="444" font-size="23" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">최종 응답</text>
+  <text x="865" y="476" font-size="15" fill="#4A5561" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">더 쓸 도구가 없다고</text>
+  <text x="865" y="502" font-size="15" fill="#687078" text-anchor="middle" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">판단하면 종료</text>
+  <rect x="1060" y="400" width="280" height="130" rx="12" fill="#F7F8F8" stroke="#687078" stroke-width="2"/>
+  <text x="1200" y="444" font-size="20" fill="#232F3E" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">다음 에이전트로</text>
+  <text x="1200" y="476" font-size="13" fill="#4A5561" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">message["content"][0]</text>
+  <text x="1200" y="500" font-size="13" fill="#4A5561" text-anchor="middle" font-weight="400" font-family="SFMono-Regular, Menlo, monospace">["text"]</text>
+  <path d="M268,350 L352,350" stroke="#687078" stroke-width="2.5" fill="none" marker-end="url(#a-687078)"/>
+  <path d="M612,320 L722,250" stroke="#FF9900" stroke-width="3" fill="none" marker-end="url(#a-FF9900)"/>
+  <path d="M612,380 L722,450" stroke="#01A88D" stroke-width="3" fill="none" marker-end="url(#a-01A88D)"/>
+  <path d="M1008,465 L1052,465" stroke="#687078" stroke-width="2.5" fill="none" marker-end="url(#a-687078)"/>
+  <path d="M865,166 L865,132 L485,132 L485,274" stroke="#FF9900" stroke-width="3" fill="none" stroke-dasharray="7,5" marker-end="url(#a-FF9900)"/>
+  <text x="675" y="122" font-size="16" fill="#FF9900" text-anchor="middle" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">결과를 다시 추론에 반영 — 더 쓸 도구가 없다고 판단할 때까지 반복</text>
+  <rect x="60" y="590" width="1280" height="116" rx="12" fill="#F7F8F8" stroke="#D5DBDB" stroke-width="2"/>
+  <text x="84" y="622" font-size="18" fill="#232F3E" text-anchor="start" font-weight="700" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">@tool 데코레이터가 하는 일</text>
+  <text x="84" y="654" font-size="16" fill="#4A5561" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">타입 힌트와 docstring을 읽어 LLM이 이해할 수 있는 도구 스펙(JSON 스키마)을 자동 생성한다.</text>
+  <text x="84" y="682" font-size="16" fill="#687078" text-anchor="start" font-weight="400" font-family="Apple SD Gothic Neo, Pretendard, Noto Sans KR, Malgun Gothic, sans-serif">따라서 docstring을 잘 쓰는 것이 곧 도구 품질이다. 반환값은 LLM이 읽도록 문자열로 맞춘다.</text>
+</svg>
